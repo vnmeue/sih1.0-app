@@ -1,0 +1,59 @@
+
+/* Basic reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #005792;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-list {
+    display: inline-flex;
+    width: 100vw;
+    justify-content: right;
+    border: 2px solid #D1F4FA;
+    border-color: white;
+}
+
+.nav-home {
+    border: 2px solid #D1F4FA;
+    border-color: white;
+}
+
+.nav-list li {
+    display: inline-flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #555;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
